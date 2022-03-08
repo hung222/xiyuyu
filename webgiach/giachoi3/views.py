@@ -1,3 +1,3 @@
 from django.shortcuts import render
-
-# Create your views here.
+from giachoi3.models import giachoi3
+admin.ste.register(giachoi3)

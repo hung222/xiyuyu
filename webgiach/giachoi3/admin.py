@@ -1,3 +1,4 @@
 from django.contrib import admin
+from .models import giachoi3
+admin.site.register(giachoi3)
 
-# Register your models here.
