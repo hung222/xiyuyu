@@ -120,7 +120,7 @@ USE_TZ = True
 
 STATIC_URL ='http://www.taolaobidao.herokuapp.com/static/'
 #activate django-heroku.
-django-heroku.settings(locals())
+django_heroku.settings(locals())
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
