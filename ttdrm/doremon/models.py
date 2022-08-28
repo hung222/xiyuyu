@@ -5,4 +5,6 @@ class drm(models.Model):
        congnang = models.CharField(max_length=1500)
 def __str__(self):
         return self.tinnhan 
+def __str__(self):
+        return self.st       
 
