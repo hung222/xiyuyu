@@ -6,5 +6,11 @@ class drm(models.Model):
 def __str__(self):
         return self.tinnhan 
 def __str__(self):
-        return self.st       
+        return self.st 
+def nbt(self, *args, **kwargs): #3
+        self.slug = slugify(self.name) #4
+        if self.parent_category_id is not None: #5
+            Categories.objects.filter(parent_category=self.id).update(parent_category=None)
+
+
 
