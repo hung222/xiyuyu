@@ -11,6 +11,13 @@ def nbt(self, *args, **kwargs): #3
         self.slug = slugify(self.name) #4
         if self.parent_category_id is not None: #5
             Categories.objects.filter(parent_category=self.id).update(parent_category=None)
+def nbtt(self, *args, **kwargs): #3
+        self.slug = slugify(self.name) #4
+        if self.parent_category_id is not None: #5
+            Categories.objects.filter(parent_category=self.id).update(parent_category=None)
+      
+       
+       
 
 
 
